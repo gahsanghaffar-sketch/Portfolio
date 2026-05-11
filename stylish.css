@@ -68,13 +68,12 @@ ul li a:hover{
 
 
 /* Hero Section Start */
+
 .hero{
 
-    min-height: 100vh;
+    height: 100vh;
 
     display: flex;
-
-    flex-direction: column;
 
     justify-content: center;
 
@@ -85,11 +84,6 @@ ul li a:hover{
     padding: 20px;
 }
 
-}
-.hero-text{
-
-    max-width: 500px;
-}
 .hero h1{
 
     font-size: 45px;
@@ -361,9 +355,6 @@ footer{
         align-items: center;
     }
 }
-
-
-
 /* Animations */
 
 @keyframes slideDown{
@@ -397,12 +388,17 @@ footer{
         opacity: 1;
 
         transform: translateY(0);
-        0px cyan;
-        .hero-image img{
+    }
+}
 
-    width: 220px;
 
-    height: 220px;
+/* Hero Image */
+
+.hero-image img{
+
+    width: 300px;
+
+    height: 300px;
 
     border-radius: 50%;
 
@@ -413,6 +409,16 @@ footer{
     margin-top: 30px;
 
     box-shadow: 0 0 20px cyan;
+
 }
-}
+
+
+
+
+
+
+
+
+
+
 }
