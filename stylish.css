@@ -75,15 +75,18 @@ ul li a:hover{
 
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
 
     align-items: center;
 
-    text-align: center;
-
     padding: 20px;
-}
 
+    flex-wrap:wrap;
+}
+.hero-text{
+
+    max-width: 500px;
+}
 .hero h1{
 
     font-size: 45px;
@@ -391,5 +394,12 @@ footer{
         opacity: 1;
 
         transform: translateY(0);
-    }
+        .hero-image img{
+
+    width: 300px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 20px cyan;
+}
 }
